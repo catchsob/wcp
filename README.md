@@ -10,8 +10,8 @@ Watch Car Plate
 
 AI 模型解決方案:
 1. 以 YoloV3 負責車牌物件偵測，將偵測出的車牌影像擷取後傳送至 CRNN model 進行車牌文字辨識
-2. YoloV3 採用 https://github.com/qqwweee/keras-yolo3
-3. CRNN 採用 https://github.com/qjadud1994/CRNN-Keras
+2. YoloV3 refer to https://github.com/qqwweee/keras-yolo3
+3. CRNN refer to https://github.com/qjadud1994/CRNN-Keras
 4. 自建車牌模擬器訓練 CRNN 文字辨識模型，訓練至一定程度再以真實車牌照片進一步訓練
 5. 直接以真實照片訓練 YoloV3 物件偵測車牌模型
 
