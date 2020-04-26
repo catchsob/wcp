@@ -16,6 +16,6 @@ AI 模型解決方案:
 5. 直接以真實照片訓練 YoloV3 物件偵測車牌模型
 
 目錄與進度說明:
-1. *plategen* ==>  car plate generator; progress 50%, ready for new SPEC car plate of Taiwan
+1. *plategen* ==> pseudo car plate generator; progress 50%, ready for new SPEC car plate of Taiwan
 2. *crnn* ==> CRNN model; progress 50%, pseudo car plate training OK, but need advanced training for real car plate; collecting real photos
 3. *yolov3* ==> YoloV3 model; progress 0%, proved the concept to roughly bound the car plate
